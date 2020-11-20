@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Remise à niveau CSS 3</title>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class="contenu">
+
+		<a href="https://www.w3schools.com/css/default.asp">Référence</a>
+		<h1>Tester votre css dans une balise HTML ou entre 2 balises style</h1>
+
+		<h2 class="main-title">Intégré votre feuille de style</h2>
+		<p>Créer un fichier avec l'extension .css</p>
+		<p><b>Rappel :</b> avec des chevrons < et > link rel="stylesheet" type="text/css" href="chemin du fichier.css"/></p>
+		<p><b>Rappel de la syntaxe :</b> balise, .classe ou #id { propriété: valeur; }</p>
+	</div>
+
+	<div class="contenu2">
+		<h2 class="main-title">Exercice 1 :</h2>
+		<p>Tester un style sur votre navigateur (f12 ou Ctrl + Maj + i) onglet Element partie de droite </p>
+		<p>Ajouter des commentaires à votre feuille de style /* commentaire */</p>
+		<p>Tester un style depuis votre fichier avec les selecteur html, body et *</p>
+		<p>Appliquer un style à une balise, une classe et un id</p>
+		<p>Appliquer un style à un groupe de balise, ex: a, ul, li, p</p>
+	</div>
+
+	<img src="block.png" align="layout" title="css layout">
+
+	<div id="content3" class="contenu3">
+		<h2 class="main-title">Exercice 2 :</h2>
+		<p>Ajouter un fond d'écran qui prend toutes la page</p>
+		<p>Créer un conteneur HTML, donner lui une couleur de fond et une bordure</p>
+		<p>Arrondir les angles du conteneur</p>
+		<p>Remplir de contenu HTML et mettre du padding</p>
+	</div>
+
+	<div id="content4" class="contenu">
+		<h2 class="main-title">Exercice 3 :</h2>
+		<div class="inside-block">
+			<p class="c4-para1">Créer un autre conteneur avec une largeur, une hauteur et ajouter des marges</p>
+			<p class="c4-para2">Ajouter du texte et changer la couleur, la taille, la police, l'alignement, la transformation, l'espacement et ajouter une ombre</p>
+			<p class="c4-para3">On change la couleur + ombre</p>
+		</div>
+		
+	</div>
+
+	<div class="contenu2">
+		<h2 class="main-title">Exercice 4 :</h2>
+		<p>Créer et ajouter du style à vos boutons</p>
+		<a href="#" class="c5-btn">Super Bouton</a>
+		<p>Créer une liste et changer les puces</p>
+		<ul>
+			<li>Le puce sont de cercle</li>
+			<li>Cool non ?</li>
+		</ul>
+	</div>
+
+	<div class="contenu3">
+		<h2 class="main-title">Exercice 5 :</h2>
+		<p>Créer une table et ajouté du style (bordures, couleurs, ombres, etc...)</p>
+		<table>
+			<thead>
+				<tr>
+					<th>1</th>
+					<th class="th-col2">2</th>
+					<th>3</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Element ONE</td>
+					<td>Le deux</td>
+					<td class="td-col3">Et de 3</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>Modifier la taille des lignes et colonnes, l'alignement et responsive</p>
+		<p><em>Utilisé Display pour faire disparaitre des éléments</em></p>
+		<p style="color: #122142;"><b>Utilisé min et max width et height pour calibré vos blocks et span et utlisié des largeur et hauteur en pourcentage %</b></p>
+	</div>
+
+	<div class="contenu">
+		<h2 class="main-title">Exercice 6 :</h2>
+		<p>Comprendre la position des block et span : static, relative, fixed, absolute et sticky</p>
+		<div class="bloc-fix">Block fixe</div>
+		<div class="bloc-relatif">Block classique relatif</div>
+		<div class="bloc-absolute">Block position absolue</div>
+		<p>Comprendre overflow : visible, hidden, scroll, auto</p>
+		<p>Comprendre les fottants</p>
+	</div>
+
+	<div class="contenu2">
+		<h2 class="main-title">Exercice 7 :</h2>
+		<p>Utilisé des sélecteurs acendants ex : div p = <b style="color: yellow">Selection tous les p dans la div</b></p>
+		<p>Utilisé des sélecteurs enfants ex : div > p = <b style="color: #b0fcd2">Selection de tous les p enfant direct de la div (donc seulement le premier p dans la div)</b></p>
+		<p>Utilisé des pseudo:class ex: :hover :link :visited etc... </p>
+		<p>
+			<ul>
+				<li><a class="pseudo-lien" href="#">Liens avec :link</a></li>
+				<li><a class="pseudo-lien" href="#">Liens avec :hover</a></li>
+				<li><a class="pseudo-lien" href="#">Liens avec :visited</a></li>
+			</ul>
+		</p>
+	</div>
+
+	<div class="contenu3">
+		<h2 class="main-title">Exercice 8 :</h2>
+		
+
+	</div>
+
+	<div class="contenu">
+		<h2 class="main-title">Exercice 9 :</h2>
+		<p>Créer un navbar avec une navigation horizontal et vertical</p>
+		<p>Créer un effet Dropdown au survol de la souris</p>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<div class="topnav" id="myTopnav">
+		  <a href="#home" class="active">Home</a>
+		  <a href="#news">News</a>
+		  <a href="#contact">Contact</a>
+		  <a href="#about">About</a>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    <i class="fa fa-bars"></i>
+		  </a>
+		</div>
+	</div>
+
+	<div class="contenu2">
+		<h2 class="main-title">Exercice 10 :</h2>
+		<p>Créer une gallerie de photo horizontale responsive</p>
+		<div id="four-img-h">
+			<img src="1.jpeg">
+			<img src="1.jpeg">
+			<img src="1.jpeg">
+			<img src="1.jpeg">
+		</div>
+		<p>Créer un bloc avec un gradient</p>
+		<div id="gradient-blue">
+			
+		</div>
+		<p>Créer des effets transform 2D (translate, rotate, etc...) au survol de la souris</p>
+		<p>Créer des transition au survol de la souris</p>
+		<div class="container-rotation">
+		  Effet rotation :hover
+		</div>
+		<div class="container-move">
+		  Effet zoom :hover
+		</div>
+		<div class="container-moveX">
+		  Effet deplacement :hover
+		</div>
+		<p>Créer des animations au survol de la souris</p>
+		<p>Créer des tool-tip au survol de la souris</p>
+		<div class="tooltip">AU SURVOL
+		  <span class="tooltiptext">UN INDICE</span>
+		</div>
+		
+	</div>
+
+	<div class="contenu3">
+		<h2 class="main-title">Exercice 11 :</h2>
+		<p>Créer un bloc de 3 colonnes responsive et ajouter un espacement</p>
+		<p>Comprendre le fonctionnement des media queries</p>	
+		<div id="main-content">
+			100%
+			<div class="navbar">Nab bar</div>
+			<aside class="aside">25%</aside>
+			<div class="right-top">75% a droite</div>
+			<div class="right-bottom">75% a droite</div>
+			<footer>Le pied de page</footer>
+		</div>	
+	</div>
+
+	<div class="contenu">
+		<h2 class="main-title">Exercice 12 :</h2>
+		<p>Réaliser un layout avec de flex box</p>		
+	</div>
+</body>
+</html>
